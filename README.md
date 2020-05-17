@@ -128,7 +128,7 @@ If you are compiling Armadillo by hand, ensure that LAPACK and BLAS are enabled.
 
 ### 4. Building mlpack from source
 
-This document discusses how to build mlpack from source. These build directions 
+This document discusses how to build mlpack from the source. These build directions 
 will work for any Linux-like shell environment (for example Ubuntu, macOS,
 FreeBSD etc). However, mlpack is in the repositories of many Linux distributions 
 and so it may be easier to use the package manager for your system.  For example, 
@@ -164,7 +164,7 @@ sufficient.
     $ cd build
 
 The next step is to run CMake to configure the project.  Running CMake is the
-equivalent to running `./configure` with autotools. If you run CMake with no
+equivalent to running `./configure` with Autotools. If you run CMake with no
 options, it will configure the project to build with no debugging symbols and 
 no profiling information:
 
@@ -218,7 +218,7 @@ of the build can be specified:
 
     $ make mlpack_pca mlpack_knn mlpack_kfn
 
-If the build fails and you cannot figure out why, register an account on Github
+If the build fails and you cannot figure out why register an account on Github
 and submit an issue. The mlpack developers will quickly help you figure it out:
 
 [mlpack on Github](https://www.github.com/mlpack/mlpack/)
@@ -259,7 +259,7 @@ them from there, or you can install the library and (depending on system
 settings) they should be added to your PATH and you can call them directly.  The
 documentation below assumes the executables are in your PATH.
 
-Consider the 'mlpack_knn' program, which finds the k nearest neighbors in a
+Consider the 'mlpack_knn' program, which finds the k nearest neighbours in a
 reference dataset of all the points in a query set.  That is, we have a query
 and a reference dataset. For each point in the query dataset, we wish to know
 the k points in the reference dataset which are closest to the given query
